@@ -1,0 +1,7 @@
+streamlit>=1.40
+requests>=2.32
+google-genai>=0.3
+numpy>=2.0
+python-dotenv>=1.0
+pytest>=8.0
+ruff>=0.6

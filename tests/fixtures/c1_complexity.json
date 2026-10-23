@@ -1,0 +1,34 @@
+{
+  "file_key": "SAMPLE",
+  "screens": [
+    {
+      "screen_id": "1:2",
+      "score": 78.0,
+      "violations": [
+        {"factor": "element_density", "severity": "high", "node_ids": ["1:10", "1:11", "1:12"]},
+        {"factor": "inconsistent_spacing", "severity": "medium", "node_ids": ["1:13"]},
+        {"factor": "weak_visual_hierarchy", "severity": "medium", "node_ids": ["1:14"]}
+      ]
+    },
+    {
+      "screen_id": "1:3",
+      "score": 42.5,
+      "violations": [
+        {"factor": "excessive_fonts", "severity": "low", "node_ids": ["1:20", "1:21"]}
+      ]
+    },
+    {
+      "screen_id": "1:4",
+      "score": 66.0,
+      "violations": [
+        {"factor": "deep_nesting", "severity": "medium", "node_ids": ["1:30"]},
+        {"factor": "excessive_colors", "severity": "high", "node_ids": ["1:31", "1:32"]}
+      ]
+    },
+    {
+      "screen_id": "1:5",
+      "score": 30.0,
+      "violations": []
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "version": "0.1.0-draft",
+  "note": "Starter factor vocabulary. Keys under 'factors' are the ONLY valid Violation.factor values. Agree changes with all three members.",
+  "factors": {
+    "element_density": {
+      "category": "complexity",
+      "title": "Too many elements on one screen",
+      "fix": "Group related elements and move secondary content to another screen or behind progressive disclosure.",
+      "impact": 4,
+      "effort": 3,
+      "guideline": "Material Design — Layout; Nielsen #8 Aesthetic and minimalist design"
+    },
+    "deep_nesting": {
+      "category": "complexity",
+      "title": "Deeply nested layer hierarchy",
+      "fix": "Flatten the layout: replace nested groups with a few auto-layout containers.",
+      "impact": 2,
+      "effort": 2,
+      "guideline": "Figma auto-layout best practice"
+    },
+    "inconsistent_alignment": {
+      "category": "complexity",
+      "title": "Elements not aligned to a common grid",
+      "fix": "Align elements to an 8 pt grid and shared left/right edges.",
+      "impact": 3,
+      "effort": 2,
+      "guideline": "Material Design — 8dp grid"
+    },
+    "inconsistent_spacing": {
+      "category": "complexity",
+      "title": "Irregular spacing between elements",
+      "fix": "Apply one spacing scale (4/8/16/24/32) consistently between related and unrelated elements.",
+      "impact": 3,
+      "effort": 1,
+      "guideline": "Gestalt proximity; Material Design spacing"
+    },
+    "excessive_colors": {
+      "category": "complexity",
+      "title": "Too many distinct colours",
+      "fix": "Limit the screen to a primary, secondary and neutral palette and reuse colour styles.",
+      "impact": 3,
+      "effort": 2,
+      "guideline": "Material Design — Color system"
+    },
+    "excessive_fonts": {
+      "category": "complexity",
+      "title": "Too many font sizes or weights",
+      "fix": "Use a type scale with at most 3–4 text styles per screen.",
+      "impact": 3,
+      "effort": 1,
+      "guideline": "Apple HIG — Typography"
+    },
+    "choice_overload": {
+      "category": "cognitive_load",
+      "title": "Too many choices or actions",
+      "fix": "Keep one primary action per screen and move secondary actions into a menu or later step.",
+      "impact": 5,
+      "effort": 3,
+      "guideline": "Hick's Law"
+    },
+    "small_touch_target": {
+      "category": "cognitive_load",
+      "title": "Touch targets too small",
+      "fix": "Make every tappable area at least 44×44 pt (iOS) / 48×48 dp (Android).",
+      "impact": 4,
+      "effort": 1,
+      "guideline": "Apple HIG; Material Design — Touch targets; Fitts's Law"
+    },
+    "low_contrast": {
+      "category": "cognitive_load",
+      "title": "Text contrast below WCAG AA",
+      "fix": "Raise text/background contrast to at least 4.5:1 (3:1 for large text).",
+      "impact": 4,
+      "effort": 1,
+      "guideline": "WCAG 2.2 SC 1.4.3"
+    },
+    "small_text": {
+      "category": "cognitive_load",
+      "title": "Text too small to read comfortably",
+      "fix": "Use at least 16 pt for body text and 12 pt for captions.",
+      "impact": 3,
+      "effort": 1,
+      "guideline": "Apple HIG — Typography; Material Design — Type scale"
+    },
+    "text_overload": {
+      "category": "cognitive_load",
+      "title": "Long blocks of text",
+      "fix": "Break text into short chunks with headings, bullet points and clear labels.",
+      "impact": 3,
+      "effort": 2,
+      "guideline": "Miller's Law; chunking"
+    },
+    "weak_visual_hierarchy": {
+      "category": "cognitive_load",
+      "title": "No clear visual hierarchy",
+      "fix": "Differentiate headings, primary actions and body text with size, weight and colour.",
+      "impact": 4,
+      "effort": 2,
+      "guideline": "Visual hierarchy; Nielsen #8"
+    },
+    "long_form": {
+      "category": "cognitive_load",
+      "title": "Too many input fields on one screen",
+      "fix": "Split the form into steps, drop optional fields and use smart defaults.",
+      "impact": 4,
+      "effort": 3,
+      "guideline": "Baymard form usability; progressive disclosure"
+    }
+  }
+}
