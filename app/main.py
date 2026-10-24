@@ -49,6 +49,8 @@ if result is None:
     st.stop()
 
 rec = result.recommendation
+for name in result.missing:
+    st.info(f"{name} hasn't been added to the project yet, so its scores show as 0.")
 for warning in rec.warnings:
     st.warning(warning)
 if result.design is not None and not result.design.screens:

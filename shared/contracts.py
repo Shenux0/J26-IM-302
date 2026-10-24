@@ -57,7 +57,7 @@ class Design:
 
 @dataclass
 class Violation:
-    factor: str            # key looked up in C3's rules.json (shared vocabulary!)
+    factor: str            # the C1/C2 factor it falls under, e.g. "typography"
     severity: str          # "high" | "medium" | "low"
     node_ids: list[str]    # Figma node IDs where the issue occurs
 
